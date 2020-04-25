@@ -23,9 +23,10 @@ from generator import prepare_words_list
 
 def get_classes(wanted_only=False):
   if wanted_only:
-    classes = 'stop down off right up go on yes left no'
+    #classes = 'stop down off right up go on yes left no'
+    classes = 'sick not_sick'
     classes = classes.split(' ')
-    assert len(classes) == 10
+    assert len(classes) == 2
   else:
     classes = ('sheila nine stop bed four six down bird marvin cat off right '
                'seven eight up three happy go zero on wow dog yes five one tree'
