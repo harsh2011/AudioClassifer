@@ -21,6 +21,7 @@ import keras
 from keras.layers import *
 from keras.regularizers import l2
 from keras.models import Model
+from keras import backend as K
 
 
 def preprocess(x):

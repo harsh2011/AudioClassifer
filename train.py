@@ -108,7 +108,7 @@ if __name__ == '__main__':
 
   # embed()
   #checkpoints_path = os.path.join('checkpoints', 'conv_1d_time_stacked_model')
-  checkpoints_path = os.path.join('checkpoints', 'conv_1d_time_stacked_model')
+  checkpoints_path = '/content/drive/My Drive/checkpoints' 
   if not os.path.exists(checkpoints_path):
     os.makedirs(checkpoints_path)
 
