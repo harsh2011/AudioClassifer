@@ -48,7 +48,7 @@ After the training the model for 100 epochs, the following confusion matrix was 
 
 
 | Predicted     | _silence_     | sick   | not_sick  
-| ------------- |:-------------:| ------:| ---:| ------:| ---:| -----:| ----:| -------:| -------:| ------:| ----:|-----:|
+| ------------- |:-------------:| ------:| ---:|
 | Actual |
 _silence_ | 20 | 0 | 0 
 sick | 0 | 16 | 8 
